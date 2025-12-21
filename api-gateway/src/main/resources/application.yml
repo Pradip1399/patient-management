@@ -13,6 +13,8 @@ spring:
           uri: http://patient-service:4000
           predicates:
             - Path=/api/patients/**
+          filters:
+            - StripPrefix=1
 
         # Route for /api/docs/patients to patient-service /v3/api-docs
         # REST CLIENT -> http://localhost:4004/api-docs/patients
