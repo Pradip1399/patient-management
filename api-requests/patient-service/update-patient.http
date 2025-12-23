@@ -1,5 +1,5 @@
 ### Updates a new patient entity
-PUT http://localhost:4000/patients/97229456-e1f2-409f-bf08-a8d63510d316
+PUT http://lb-eb6f468b.elb.localhost.localstack.cloud:4000/patients/97229456-e1f2-409f-bf08-a8d63510d316
 Content-Type: application/json
 
 {
